@@ -10,6 +10,7 @@ import {
   CTA,
   Footer,
   Hero,
+  CardDeal,
 } from './components';
 const App = () => (
   <div className='bg-primary w-full overflow-hidden'>
@@ -36,6 +37,7 @@ const App = () => (
         <Stats />
         <Business />
         <Billing />
+        <CardDeal />
         <Testimonials />
         <Clients />
         <CTA />
